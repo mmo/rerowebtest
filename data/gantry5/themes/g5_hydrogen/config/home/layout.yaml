@@ -1,0 +1,146 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/home.png'
+  name: home
+  timestamp: 1598197426
+layout:
+  /header/: {  }
+  /navigation/:
+    -
+      - 'menu-3526 75'
+      - 'langswitcher-1815 25'
+  /showcase/:
+    -
+      - sample-1
+  /feature/:
+    -
+      - sample-3
+  /main/:
+    -
+      - system-messages-3585
+    -
+      - sample-2
+  /subfeature/: {  }
+  /footer/:
+    -
+      - position-footer
+    -
+      - 'copyright-8010 33.3'
+      - 'social-8232 33.3'
+      - 'branding-5917 33.3'
+  offcanvas:
+    -
+      - mobile-menu-3713
+structure:
+  header:
+    attributes:
+      boxed: ''
+  navigation:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+      variations: ''
+  showcase:
+    type: section
+    attributes:
+      boxed: ''
+  feature:
+    type: section
+    attributes:
+      boxed: ''
+  main:
+    attributes:
+      boxed: ''
+  subfeature:
+    type: section
+    attributes:
+      class: flush
+      boxed: ''
+  footer:
+    attributes:
+      boxed: ''
+content:
+  langswitcher-1815:
+    title: 'Language Switcher'
+  sample-1:
+    title: 'Gantry 5'
+    attributes:
+      image: 'gantry-media://logo_simple.svg'
+      headline: ''
+      description: '<p>RERO est le Réseau des bibliothèques de Suisse occidentale, dont la centrale est basée à Martigny, en Valais. Dans le contexte actuel de mutation du paysage des bibliothèques en Suisse, RERO se transforme d’ici 2021, en un centre de compétences et de services destinés aux bibliothèques. Il deviendra dès lors une fondation à but non lucratif. Ce projet d’envergure s’intitule RERO 21 et a été approuvé par l’autorité de tutelle de RERO, la CIIP en septembre 2018.</p>'
+      link: 'http://docs.gantry.org'
+      linktext: 'Read More'
+      samples: {  }
+  sample-3:
+    title: 'Key Features'
+    attributes:
+      image: 'gantry-media://logo_simple.svg'
+      headline: 'Centre de compétences et de services aux bibliothèques'
+      description: '<p>Des outils modernes et open-source pour répondre aux besoins des professionnel·lle·s, des bibliothèques et de leurs publics</p>'
+      link: ''
+      linktext: ''
+      samples:
+        -
+          icon: 'fa fa-code'
+          subtitle: 'My Subtitle'
+          description: '<p> RERO ILS est un système de gestion de bibliothèque open source développé par RERO en collaboration avec l’Université catholique de Louvain (UCLouvain). Il sera mis en production en remplacement du système actuel dans le cadre du projet RERO 21. </p>'
+          id: ''
+          class: ''
+          variations: ''
+          title: 'RERO ILS'
+        -
+          icon: 'fa fa-newspaper-o'
+          subtitle: ''
+          description: '<p> RERO 21 proposera ses services sur l’ensemble du territoire helvétique, aussi RERO ILS doit impérativement être multilingue. Avec MEF, RERO a developpé une solution décentralisée qui se base sur la fiabilité des autorités et sur le Linked Data, afin d’afficher des données en plusieurs langues.</p>'
+          id: ''
+          class: ''
+          variations: ''
+          title: MEF
+        -
+          icon: 'fa fa-cubes'
+          subtitle: ''
+          description: '<p> Le projet SONAR fait partie du programme P-5 de swissuniversities. Il s’agit du développement d’une archive institutionnelle nationale, dont le but est de collecter, de promouvoir et d’assurer la préservation des publications scientifiques open access des auteurs affiliés aux institutions de recherche publiques en Suisse. SONAR a également pour but d’offrir un service d’archive institutionnelle (IR as a Service).</p>'
+          id: ''
+          class: ''
+          variations: ''
+          title: SONAR
+  sample-2:
+    title: 'Getting Started'
+    attributes:
+      description: "<h1 class=\"center\">Getting Started</h1>\n<div class=\"device-promo\"><div class=\"macbook\"><div class=\"macbook-color\"></div></div><div class=\"ipad\"><div class=\"ipad-color\"></div></div><div class=\"iphone\"><div class=\"iphone-color\"></div></div></div><p>Welcome to Gantry 5 featuring <strong>Hydrogen</strong>, the first theme built on the Gantry 5 framework. If you want to get started, the best way is to navigate to the Gantry Administrator via your platform's Administration panel.</p>\n\n<p>Once you are in the Gantry 5 Administrator, you will be able to edit virtually every aspect of your site from its <strong>Layout</strong> to its <strong>Style</strong>. You can even refine how the menus appear using Gantry 5’s new <strong>Menu Editor</strong>.</p>\n\n<p>You can set different style preferences for different pages, and have them assigned accordingly using the <strong>Assignments</strong> administrative panel.</p>\n\n<div class=\"info-box\"><div class=\"fa fa-graduation-cap float-left\"></div><p>Look for more information on Gantry 5 in our documentation, and stay tuned to the RocketTheme Blog for more information on new features and development updates as development continues.</p>\n\n<p><a href=\"http://docs.gantry.org\" class=\"button\">Learn More</a></p></div>\n\n<h1 class=\"center\">How to Contribute</h1>\n\n<div class=\"g-grid\">\n<div class=\"g-block size-37\"><p>Thank you for using Gantry 5 and the Hydrogen theme. We welcome you to contribute to the project by submitting bug reports through <strong>GitHub</strong>, and/or submit your own code changes to the <strong>Gantry 5 project</strong> for consideration.</p>\n<p><a href=\"https://github.com/gantry/gantry5\" class=\"button\">Gantry 5 on GitHub</a></p>\n</div>\n<div class=\"g-block size-26 middle\"><div class=\"fa fa-github-square\"></div></div>\n\n<div class=\"g-block size-37\"><p>If you would like to assist in creating documentation for Gantry 5, you can do so through the <strong>Gantry 5 Documentation</strong> project on <strong>GitHub</strong>.</p>\n<p><a href=\"https://github.com/gantry/docs\" class=\"button\">Gantry Docs on GitHub</a></p>\n</div>\n</div>\n\n<p>Once again, thank you for participating. We hope you enjoy testing Gantry 5 every bit as much as we have enjoyed creating it.</p>"
+  position-footer:
+    attributes:
+      key: footer
+  social-8232:
+    attributes:
+      css:
+        class: social-items
+      items:
+        -
+          icon: 'fa fa-twitter'
+          text: Twitter
+          link: 'http://twitter.com/rockettheme'
+          name: Twitter
+        -
+          icon: 'fa fa-facebook'
+          text: Facebook
+          link: 'http://facebook.com/rockettheme'
+          name: Facebook
+        -
+          icon: 'fa fa-google'
+          text: Google
+          link: 'http://plus.google.com/+rockettheme'
+          name: Google
+        -
+          icon: 'fa fa-rss'
+          text: RSS
+          link: 'http://www.rockettheme.com/product-updates?rss'
+          name: RSS
+    block:
+      variations: center
+  branding-5917:
+    block:
+      variations: align-right
+  mobile-menu-3713:
+    title: 'Mobile Menu'

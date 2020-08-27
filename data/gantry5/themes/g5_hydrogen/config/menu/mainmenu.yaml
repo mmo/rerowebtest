@@ -1,0 +1,37 @@
+settings:
+  title: Mainmenu
+ordering:
+  home: ''
+  services:
+    reroils: ''
+  about:
+    rero-plus: ''
+    team: ''
+items:
+  home:
+    enabled: '0'
+    attributes: {  }
+    link_attributes: {  }
+    dropdown_dir: right
+    dropdown_hide: '0'
+    width: auto
+  services:
+    rel: ''
+    enabled: true
+    anchor_class: ''
+  services/reroils:
+    rel: ''
+    enabled: true
+    anchor_class: ''
+  about:
+    rel: ''
+    enabled: true
+    anchor_class: ''
+  about/rero-plus:
+    rel: ''
+    enabled: true
+    anchor_class: ''
+  about/team:
+    rel: ''
+    enabled: true
+    anchor_class: ''

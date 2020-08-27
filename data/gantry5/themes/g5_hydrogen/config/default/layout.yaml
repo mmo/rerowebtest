@@ -1,0 +1,57 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: default
+  timestamp: 1597482443
+layout:
+  /header/:
+    -
+      - 'logo-3115 33'
+      - 'position-header 44'
+      - 'langswitcher-8732 23'
+  /navigation/:
+    -
+      - menu-9249
+  /main/:
+    -
+      - position-breadcrumbs
+    -
+      - system-messages-2804
+    -
+      - system-content-8846
+  /footer/:
+    -
+      - position-footer
+    -
+      - 'copyright-5710 40'
+      - 'spacer-4297 30'
+      - 'branding-5466 30'
+  offcanvas:
+    -
+      - mobile-menu-4099
+structure:
+  header:
+    attributes:
+      boxed: ''
+  navigation:
+    type: section
+    attributes:
+      boxed: ''
+  main:
+    attributes:
+      boxed: ''
+  footer:
+    attributes:
+      boxed: ''
+content:
+  position-header:
+    attributes:
+      key: header
+  langswitcher-8732:
+    title: 'Language Switcher'
+  position-breadcrumbs:
+    attributes:
+      key: breadcrumbs
+  position-footer:
+    attributes:
+      key: footer
